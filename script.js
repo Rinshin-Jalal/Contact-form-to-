@@ -12,6 +12,8 @@ window.onload = function () {
 };
 
 function sendToDiscord(name, email, subject) {
+  let webhook = "Your webhook URL"
+
   let body = {
     embeds: [
       {
@@ -21,8 +23,7 @@ function sendToDiscord(name, email, subject) {
     ],
   };
 
-  fetch(
-    "https://discord.com/api/webhooks/909148042425421926/2m4-qByReV4LHdnXHGO21qWmJOwEEkRplTqRGgoLvR2wiUPRwfV4Br8suTWyB0YwKZ1O",
+  fetch(webhook,
     {
       method: "post",
       headers: {
