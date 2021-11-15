@@ -4,5 +4,5 @@
 
 Do you wanna know easiest solution for this ?
 
-Check the [Blog](https://dev.to/rinz/contact-form-to--4je)
+Check the [Blog](https://rinzblog.hashnode.dev/contact-form-to)
 
